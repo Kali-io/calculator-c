@@ -2,7 +2,7 @@
 int main() {
   double num1, num2;
   int choice;
-  printf("=========Simple Calculator=========");
+  printf("=========Simple Calculator=========\n");
   printf("1. Addition\n");
   printf("2. Subtraction\n");
   printf("3. Multiplication\n");
@@ -12,7 +12,7 @@ int main() {
   printf("Enter your first Number: ");
   scanf("%lf",&num1);
   printf("Enter your second Number: ");
-  scanf("lf",&num2);
+  scanf("%lf",&num2);
   switch(choice){
     case 1:
       printf("Result = %.2lf\n",num1+num2);
