@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main() {
+  double num1, num2;
+  int choice;
+  printf("=========Simple Calculator=========");
+  printf("1. Addition\n");
+  printf("2. Subtraction\n");
+  printf("3. Multiplication\n");
+  printf("4. Division\n");
+  printf("Enter your choice(1-4): ");
+  scanf("%d",&choice);
+  printf("Enter your first Number: ");
+  scanf("%lf",&num1);
+  printf("Enter your second Number: ");
+  scanf("lf",&num2);
+  switch(choice){
+    case 1:
+      printf("Result = %.2lf\n",num1+num2);
+      break;
+    case 2:
+      printf("Result = %.2lf\n",num1-num2);
+        break;
+    case 3:
+      printf("Result = %.2lf\n",num1*num2);
+      break;
+    case 4:
+      if(num2 != 0){
+        printf("Result = %.2lf",num1/num2);
+      }else{
+        printf("Error! Division by Zero is not allowed");
+      }
+    break;
+    default:
+      printf("Invalid choice\n");
+  }
+  return 0;  
+  
+}
