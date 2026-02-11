@@ -1,2 +1,5 @@
-# calculator-c
-This is a simple calculator program written in C. It performs Addition, Subtraction, Multiplication and Division
+## Output Example
+Enter your choice(1-4): 1
+Enter First number: 10
+Enter Second number: 5
+Result = 15.00
